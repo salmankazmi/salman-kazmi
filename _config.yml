@@ -1,0 +1,45 @@
+title: Stackbit Fresh Theme
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+layout_style: overflow
+palette: blue
+header:
+  title: Salman Kazmi
+  tagline: "\U0001F468\U0001F3FB‍\U0001F4BBFull Stack Developer by Day \U0001F356 \U0001F32DFood Monster by Night. \U0001F53ALove all things Angular. Like Chai not Chaiwalas \U0001F937\U0001F3FB‍♂️"
+  profile_img: >-
+    https://res.cloudinary.com/practicaldev/image/fetch/s--3ZZDOK0S--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/141303/77b973f0-20ca-43f2-a5bd-055fb8833abc.jpg
+  bg: dark
+  has_nav: true
+  has_social: true
+footer:
+  content: '&copy; All rights reserved.'
+  links:
+    - text: Made with Stackbit
+      url: 'https://www.stackbit.com'
+      new_window: true
+    - text: Generated from DEV
+      url: 'https://dev.to/connecting-with-stackbit'
+      new_window: true
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
