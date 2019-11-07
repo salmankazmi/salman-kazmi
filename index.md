@@ -5,17 +5,17 @@ sections:
     component: hero_block.html
     type: heroblock
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Hi There! My Name is Salman. I am a FullStack Web Developer currently based in Pune, India.
+      Welcome to my very own small location on the Web. Hope you have a nice time. See ya!
   - section_id: about
     component: content_block.html
     type: contentblock
     title: About
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+      I am a FullStack Web Developer currently based in Pune, India.
+      I currently work for a company called Brillio.
+      Work mainly comprises of juggling over front-end and back-end technologies.
+      BTW, I really like Angular. Drop in if we can discuss something.
     actions:
       - label: Contact Me
         url: /contact
